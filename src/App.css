@@ -1,38 +1,115 @@
-.App {
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.home {
+  display: grid;
+  grid-gap: 0.5rem;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+
+.homeinfo {
+  background-color: rgb(241, 128, 151);
+  padding: 15px;
+  height: 100px;
+}
+
+.homeinfo:nth-child(even){
+  background-color: rgb(86, 247, 247);
+}
+
+.banner{
+  background-color: rgb(40, 41, 41);
+  width: 100%;
+  padding: 2rem;
+  margin-top: 50px;
+}
+
+.banner1{
+  width: 40%;
+  border-radius: 20%;
+  margin-bottom: 2rem;
+}
+
+.headerdetails {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.headerdetails h1 {
+  color: azure;
+}
+
+.continent {
+  display: flex;
+  justify-content:space-between;
+  font-size: 25px;
+  background-color: rgb(244, 153, 171);
+  margin: 0.5rem;
+  padding: 0.5rem;
+}
+
+.continent:nth-child(even){
+background-color: rgb(159, 244, 157);
+}
+
+.country {
+text-align: center;
+margin-top: 50px;
+position: fixed;
+top: 0;
+width: 100%;
+background-color: white;
+}
+
+.detailscontainer {
+  padding: 10px;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  background-color: white;
+  top: 0;
+}
+
+.head{
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  width: 90%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.search {
+  width: 100%;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 20px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.searchdiv {
+  background: white;
+  position: sticky;
+  top: 60px;
+  padding: 12px;
 }
 
-.App-link {
-  color: #61dafb;
+.subcontainer{
+  margin-top: 70px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.searchtitle{
+  text-align: center;
+}
+
+.backicon {
+  font-size: 20px;
 }
