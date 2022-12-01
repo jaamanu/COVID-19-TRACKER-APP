@@ -1,14 +1,13 @@
-import { configureStore, combineReducers, applyMiddleware } from "@reduxjs/toolkit";
-import thunk from "redux-thunk";
-import covidSlice from './api/api'
+import { configureStore, combineReducers, applyMiddleware } from '@reduxjs/toolkit';
+import thunk from 'redux-thunk';
+import covidSlice from './api/api';
 
 const reducers = combineReducers({
-    covidTracker:covidSlice,
-})
+  covidTracker: covidSlice,
+});
 
 const store = configureStore({
-    reducer:reducers,
-},applyMiddleware(thunk)
-)
+  reducer: reducers,
+}, applyMiddleware(thunk));
 
 export default store;

@@ -1,4 +1,4 @@
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -16,18 +16,18 @@
   height: 100px;
 }
 
-.homeinfo:nth-child(even){
+.homeinfo:nth-child(even) {
   background-color: rgb(86, 247, 247);
 }
 
-.banner{
+.banner {
   background-color: rgb(40, 41, 41);
   width: 100%;
   padding: 2rem;
   margin-top: 50px;
 }
 
-.banner1{
+.banner1 {
   width: 40%;
   border-radius: 20%;
   margin-bottom: 2rem;
@@ -46,24 +46,24 @@
 
 .continent {
   display: flex;
-  justify-content:space-between;
+  justify-content: space-between;
   font-size: 25px;
   background-color: rgb(244, 153, 171);
   margin: 0.5rem;
   padding: 0.5rem;
 }
 
-.continent:nth-child(even){
-background-color: rgb(159, 244, 157);
+.continent:nth-child(even) {
+  background-color: rgb(159, 244, 157);
 }
 
 .country {
-text-align: center;
-margin-top: 50px;
-position: fixed;
-top: 0;
-width: 100%;
-background-color: white;
+  text-align: center;
+  margin-top: 50px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
 }
 
 .detailscontainer {
@@ -80,7 +80,7 @@ background-color: white;
   top: 0;
 }
 
-.head{
+.head {
   text-align: center;
 }
 
@@ -102,11 +102,11 @@ background-color: white;
   padding: 12px;
 }
 
-.subcontainer{
+.subcontainer {
   margin-top: 70px;
 }
 
-.searchtitle{
+.searchtitle {
   text-align: center;
 }
 
