@@ -1,21 +1,13 @@
-import { fetchApi } from "../redux/api/api";
-import { useSelector, useDispatch  } from "react-redux";
-import { useEffect } from "react";
 
 
-const Homepage = () => {
-    const Dispatch = useDispatch()
-    const {tracker, status} = useSelector((state) => state.covidTracker)
-    useEffect(() => {
-        if(status === null){
-            Dispatch(fetchApi())
-        }
-    })
+const Homepage = ({country, cases}) => {
+    
     return(
-       <div>
-        {tracker.map((numbers) => (
-        <h1>{numbers.country}</h1>
-        ))}
+       <div className="">
+        <div className="homeinfo">
+            <h3>{country}</h3>
+            <h3>{cases}</h3>
+        </div>
        </div>
     )
 }
