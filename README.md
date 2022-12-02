@@ -62,7 +62,10 @@ After you're finished please remove all the comments and instructions!
 > - This is a react project that renders the COVID-19 updates from different countries of the world, which displays the number of cases present per day,  tests collected, deaths cases, and much more information,those information is obtained from the API and displayed on the UI..
 
 ## 🛠 Built With <a name="built-with"></a>
-
+- Html & CSS
+- JavaScript
+- React
+- Visual studio
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
@@ -186,9 +189,9 @@ Example:
 
 👤 **Author1**
 
-- GitHub: [@githubhandle](https://github.com/githubhandle)
-- Twitter: [@twitterhandle](https://twitter.com/twitterhandle)
-- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+- GitHub: [@githubhandle](https://github.com/jaamanu)
+- Twitter: [@twitterhandle](https://twitter.com/JamesAsibeyManu)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/jamesasibeymanu/)
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
