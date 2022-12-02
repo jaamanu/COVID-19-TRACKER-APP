@@ -61,32 +61,14 @@ After you're finished please remove all the comments and instructions!
 
 > - This is a react project that renders the COVID-19 updates from different countries of the world, which displays the number of cases present per day,  tests collected, deaths cases, and much more information,those information is obtained from the API and displayed on the UI..
 
-**[your_project__name]** is a...
-
 ## 🛠 Built With <a name="built-with"></a>
 
 ### Tech Stack <a name="tech-stack"></a>
-
-> Describe the tech stack and include only the relevant sections that apply to your project.
 
 <details>
   <summary>Client</summary>
   <ul>
     <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>Server</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Database</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
   </ul>
 </details>
 
