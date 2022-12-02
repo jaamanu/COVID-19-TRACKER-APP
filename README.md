@@ -57,9 +57,9 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [your_project_name] <a name="about-project"></a>
+# 📖 [COVID-19 TRACKER INFORMATION WEB APP] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
+> - This is a react project that renders the COVID-19 updates from different countries of the world, which displays the number of cases present per day,  tests collected, deaths cases, and much more information,those information is obtained from the API and displayed on the UI..
 
 **[your_project__name]** is a...
 
@@ -96,9 +96,9 @@ After you're finished please remove all the comments and instructions!
 
 > Describe between 1-3 key features of the application.
 
-- **[key_feature_1]**
-- **[key_feature_2]**
-- **[key_feature_3]**
+- Fetches data from Api
+- Render API data on an SPA
+- Responsive Application
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -216,10 +216,9 @@ Example:
 ## 🔭 Future Features <a name="future-features"></a>
 
 > Describe 1 - 3 features you will add to the project.
-
-- [ ] **[new_feature_1]**
-- [ ] **[new_feature_2]**
-- [ ] **[new_feature_3]**
+- Fetches data from Api
+- Render API data on an SPA
+- Responsive Application
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
