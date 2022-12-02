@@ -256,15 +256,12 @@ I would like to thank...
 
 ## ❓ FAQ <a name="faq"></a>
 
-> Add at least 2 questions new developers would ask when they decide to use your project.
+- What is an SPA
 
-- **[Question_1]**
+  - A single-page application (SPA) is a web application or website that interacts with the user by dynamically rewriting the current web page with new data from the web server, instead of the default method of a web browser loading entire new pages.
+- Is the page compatible with mobile
 
-  - [Answer_1]
-
-- **[Question_2]**
-
-  - [Answer_2]
+  - Yes, the webpage is a resonsive page that can be displayed on most devices in use today.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
