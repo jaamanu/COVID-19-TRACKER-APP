@@ -2,7 +2,7 @@ import '@testing-library/jest-dom';
 import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import { render } from '@testing-library/react';
-import Homepage from '../components/home';
+import Display from '../components/display';
 import store from '../redux/configureStore';
 
 describe('Home component testing', () => {
@@ -10,7 +10,7 @@ describe('Home component testing', () => {
     const home = render(
       <BrowserRouter>
         <Provider store={store}>
-          <Homepage />
+          <Display />
         </Provider>
       </BrowserRouter>,
     );
