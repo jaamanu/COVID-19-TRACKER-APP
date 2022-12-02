@@ -1,7 +1,7 @@
 import { render } from '@testing-library/react';
 import '@testing-library/jest-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
-import Details from '../components/Details';
+import Details from '../components/details';
 
 jest.mock('react-router-dom', () => ({
   ...jest.requireActual('react-router-dom'),
