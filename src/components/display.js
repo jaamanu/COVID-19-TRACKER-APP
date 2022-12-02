@@ -30,14 +30,15 @@ const Display = () => {
         <input className="search" type="text" onChange={(e) => setSearch(e.target.value)} value={search} placeholder="search" />
       </div>
       <div className="home">
-        {tracker.filter((searchcountry) => searchcountry.country.toLowerCase().includes(search.toLowerCase())).map((virus1) => (
-          <NavLink state={virus1} to="/details">
-            <Homepage
-              key={uuidv4()}
-              country={virus1.country}
-              cases={virus1.cases}
-            />
-          </NavLink>
+        {tracker.filter((searchcountry) => searchcountry.country.toLowerCase()
+          .includes(search.toLowerCase())).map((virus1) => (
+            <NavLink key={uuidv4()} state={virus1} to="/details">
+              <Homepage
+                key={uuidv4()}
+                country={virus1.country}
+                cases={virus1.cases}
+              />
+            </NavLink>
         ))}
       </div>
     </div>

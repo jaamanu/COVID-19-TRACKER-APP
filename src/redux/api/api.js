@@ -8,7 +8,6 @@ const initialState = {
 export const fetchApi = createAsyncThunk('virus', async () => {
   const Omooo = await fetch('https://disease.sh/v3/covid-19/countries/');
   const Omooo1 = await Omooo.json();
-  console.log(Omooo1);
   return Omooo1;
 });
 

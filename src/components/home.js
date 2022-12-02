@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 const Homepage = ({ country, cases }) => (
   <div className="">
     <div className="homeinfo">
@@ -6,5 +8,10 @@ const Homepage = ({ country, cases }) => (
     </div>
   </div>
 );
+
+Homepage.propTypes = {
+  country: PropTypes.string.isRequired,
+  cases: PropTypes.string.isRequired,
+};
 
 export default Homepage;
