@@ -1,23 +1,17 @@
-import { fetchApi } from "../redux/api/api";
-import { useSelector, useDispatch  } from "react-redux";
-import { useEffect } from "react";
+import PropTypes from 'prop-types';
 
+const Homepage = ({ country, cases }) => (
+  <div className="">
+    <div className="homeinfo">
+      <h3>{country}</h3>
+      <h3>{cases}</h3>
+    </div>
+  </div>
+);
 
-const Homepage = () => {
-    const Dispatch = useDispatch()
-    const {tracker, status} = useSelector((state) => state.covidTracker)
-    useEffect(() => {
-        if(status === null){
-            Dispatch(fetchApi())
-        }
-    })
-    return(
-       <div>
-        {tracker.map((numbers) => (
-        <h1>{numbers.country}</h1>
-        ))}
-       </div>
-    )
-}
+Homepage.propTypes = {
+  country: PropTypes.string.isRequired,
+  cases: PropTypes.string.isRequired,
+};
 
 export default Homepage;
