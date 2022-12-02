@@ -1,35 +1,3 @@
-<a name="readme-top"></a>
-
-<!--
-HOW TO USE:
-This is an example of how you may give instructions on setting up your project locally.
-
-Modify this file to match your project and remove sections that don't apply.
-
-REQUIRED SECTIONS:
-- Table of Contents
-- About the Project
-  - Built With
-  - Live Demo
-- Getting Started
-- Authors
-- Future Features
-- Contributing
-- Show your support
-- Acknowledgements
-- License
-
-After you're finished please remove all the comments and instructions!
--->
-
-<div align="center">
-
-  <img src="murple_logo.png" alt="logo" width="140"  height="auto" />
-  <br/>
-
-  <h3><b>Microverse README Template</b></h3>
-
-</div>
 
 <!-- TABLE OF CONTENTS -->
 
@@ -41,8 +9,8 @@ After you're finished please remove all the comments and instructions!
     - [Key Features](#key-features)
   - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
-  - [Setup](#setup)
   - [Prerequisites](#prerequisites)
+  - [Setup](#setup)
   - [Install](#install)
   - [Usage](#usage)
   - [Run tests](#run-tests)
@@ -57,33 +25,37 @@ After you're finished please remove all the comments and instructions!
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [COVID-19 TRACKER INFORMATION WEB APP] <a name="about-project"></a>
+# 📖 Covid-19 Tracker Information <a name="about-project"></a>
 
-> - This is a react project that renders the COVID-19 updates from different countries of the world, which displays the number of cases present per day,  tests collected, deaths cases, and much more information,those information is obtained from the API and displayed on the UI..
+This is a react project that renders the COVID-19 updates from different countries of the world, it displays the number of cases present per day, tests collected, deaths cases, and much more information, and all those information is obtained from the API and displayed on the UI.
 
 ## 🛠 Built With <a name="built-with"></a>
-- Html & CSS
-- JavaScript
-- React
-- Visual studio
+
 ### Tech Stack <a name="tech-stack"></a>
 
 <details>
   <summary>Client</summary>
   <ul>
     <li><a href="https://reactjs.org/">React.js</a></li>
+    <li><a href="https://redux.js.org/">Redux</a></li>
+    <li><a href="https://www.javascript.com/">JS</a></li>
+    <li><a href="https://code.visualstudio.com/">Visual Studio</a></li>
+    <li><a href="https://webpack.js.org/">Webpack</a></li>
+    <li><a href="https://eslint.org/">Eslint</a></li>
+    <li><a href="https://stylelint.io/">Stylelint</a></li>
+    <li><a href="https://babeljs.io/">Babel</a></li>
+    <li><a href="https://jestjs.io/">Jest</a></li>
   </ul>
 </details>
+
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
-> Describe between 1-3 key features of the application.
-
-- Fetches data from Api
-- Render API data on an SPA
-- Responsive Application
+- **Fetches data from Api**
+- **Render API data on an SPA**
+- **Responsive Application**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -91,9 +63,8 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> Add a link to your deployed project.
+- [Live Demo Link](https://drive.google.com/file/d/19B9XEZVirVMraL0VdvmGHVPx9NhJg8MU/view?usp=sharing)
 
-- [Live Demo Link](https://yourdeployedapplicationlink.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -101,13 +72,17 @@ After you're finished please remove all the comments and instructions!
 
 ## 💻 Getting Started <a name="getting-started"></a>
 
-> Describe how a new developer could make use of your project.
-
 To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
+- Html & CSS basics
+- JS basics
+- Broad Understanding of React
+- Broad Understanding of Redux
+- Git & github
+
 
 <!--
 Example command:
@@ -120,7 +95,10 @@ Example command:
 ### Setup
 
 Clone this repository to your desired folder:
-
+- Click on the green button on the top right corner with the text code
+- Click on SSH
+- Copy the text that appears below 
+- Type "git clone" in your terminal and past the copied text next to "git clone" and press enter
 <!--
 Example commands:
 
@@ -133,6 +111,10 @@ Example commands:
 ### Install
 
 Install this project with:
+- Click on the green button on the top right corner with the text code
+- Click on "Download ZIP"
+- Extract the downloaded file locally
+- Once oponed up in a code editor run `npm install` to install all packages
 
 <!--
 Example command:
@@ -146,6 +128,7 @@ Example command:
 ### Usage
 
 To run the project, execute the following command:
+- Allow users to learn about rockets.
 
 <!--
 Example command:
@@ -158,7 +141,7 @@ Example command:
 ### Run tests
 
 To run tests, run the following command:
-
+- Run `npm test` in an intergrated terminal to run automated tests.
 <!--
 Example command:
 
@@ -169,8 +152,10 @@ Example command:
 
 ### Deployment
 
-You can deploy this project using:
+- [link to the project](https://preeminent-treacle-2e03fb.netlify.app/)
 
+You can deploy this project using: (netlify)[https://app.netlify.com/login]
+- Run `npm start` in an intergrated terminal in order to start a local live server.
 <!--
 Example:
 
@@ -184,26 +169,13 @@ Example:
 <!-- AUTHORS -->
 
 ## 👥 Authors <a name="authors"></a>
-
-> Mention all of the collaborators of this project.
-
-👤 **Author1**
+   ## Author 1
+👤 JAMES ASIBEY MANU
 
 - GitHub: [@githubhandle](https://github.com/jaamanu)
 - Twitter: [@twitterhandle](https://twitter.com/JamesAsibeyManu)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/jamesasibeymanu/)
 
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FUTURE FEATURES -->
-
-## 🔭 Future Features <a name="future-features"></a>
-
-> Describe 1 - 3 features you will add to the project.
-- Fetches data from Api
-- Render API data on an SPA
-- Responsive Application
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -213,7 +185,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](../../issues/).
+Feel free to check the [issues page](https://github.com/Irirwanirira/metrics-webapp/issues). 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -221,30 +193,30 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Write a message to encourage readers to support your project
-
 If you like this project...
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- ACKNOWLEDGEMENTS -->
-
-## 🙏 Acknowledgments <a name="acknowledgements"></a>
-
-> Give credit to everyone who inspired your codebase.
-
-I would like to thank...
+Feel free to give it a start
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+<!-- ACKNOWLEDGMENT -->
+
+## 🙏 Acknowledgements <a name="acknowledgments">
+
+- Would like to thank Microveverse for the Project
+- I would like to thank (Nelson Sakwa)[https://www.behance.net/sakwadesignstudio] for his magical design
+- My coding partners
+- 
 
 <!-- FAQ (optional) -->
 
 ## ❓ FAQ <a name="faq"></a>
 
-- What is an SPA
+- **What is an SPA**
 
-  - A single-page application (SPA) is a web application or website that interacts with the user by dynamically rewriting the current web page with new data from the web server, instead of the default method of a web browser loading entire new pages.
-- Is the page compatible with mobile
+  - A single-page application (SPA) is a web application or website that interacts with the user by dynamically rewriting the current web page with new data from the web server, instead of the default method of a web browser loading entire new pages. 
+
+- **Is the page compatible with mobile**
 
   - Yes, the webpage is a resonsive page that can be displayed on most devices in use today.
 
@@ -257,5 +229,3 @@ I would like to thank...
 This project is [MIT](./LICENSE) licensed.
 
 _NOTE: we recommend using the [MIT license](https://choosealicense.com/licenses/mit/) - you can set it up quickly by [using templates available on GitHub](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository). You can also use [any other license](https://choosealicense.com/licenses/) if you wish._
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
